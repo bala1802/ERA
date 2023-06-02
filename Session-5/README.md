@@ -1,6 +1,8 @@
 # How to read this assignment work?
 
-`S5.ipynb` - This is the Notebook that you should run to experiment the model. The notebook has imported two helper scripts - `model.py` and `util.py`.
+* `S5.ipynb` - This is the Notebook that you should run to experiment the model. The notebook has imported two helper scripts - `model.py` and `util.py`.
+* `model.py` - The Neural Network architecture is defined in the `Net` class, inheriting the `torch.nn.Modules`. The `train` and `test` method is also defined inside the same python script
+* `util.py` - This is the helper script, where most of the helper functions are defined and imported in the `S5.ipynb`
 
 
 
