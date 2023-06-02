@@ -1,7 +1,7 @@
 # How to read this assignment work?
 
 
-######  Model Architecture
+# Model Architecture
 Experiment done on the MNIST Dataset
 
 - Created a Neural Network to train the MNIST dataset
