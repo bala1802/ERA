@@ -1,5 +1,8 @@
 # How to read this assignment work?
 
+`S5.ipynb` - This is the Notebook that you should run to experiment the model. The notebook has imported two helper scripts - `model.py` and `util.py`.
+
+
 
 # Model Architecture
 Experiment done on the MNIST Dataset
