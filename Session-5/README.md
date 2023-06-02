@@ -1,4 +1,4 @@
-
+# How to read this assignment work?
 
 
 ######  Model Architecture
