@@ -108,7 +108,16 @@ The step-by-step calculation for adjusting the weights using partial derivatives
     
  
 **`Learning Rate = 0.8`**
+    
  ![image](https://github.com/bala1802/ERA/assets/22103095/c7681d5d-21ed-478f-9fdd-2430becba8dc)
+
+**`Learning Rate = 1.0`**
+ 
+ ![image](https://github.com/bala1802/ERA/assets/22103095/679c7ab5-0202-4c09-8d7b-3fbe130ed688)
+
+**`Learning Rate = 2.0`**
+ 
+ ![image](https://github.com/bala1802/ERA/assets/22103095/bdf5291f-388f-47cd-a699-d4e65293b509)
 
 
 
