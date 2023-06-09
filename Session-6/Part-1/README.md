@@ -37,7 +37,7 @@ Repeat the forward propagation and backpropagation steps for multiple iterations
 #### Backpropagation Calculations Explanation with an example:
 The step-by-step calculation for adjusting the weights using partial derivatives in a neural network with two neurons in the input layer, two neurons in the hidden layer, and two neurons in the output layer.
 
-  Let's denote the following variables:
+  Let's denote the following **variables**:
   - Inputs: i1, i2
   - Weights: w1, w2, w3, w4, w5, w6, w7, w8
   - Neurons of hidden layers: h1, h2
@@ -46,7 +46,7 @@ The step-by-step calculation for adjusting the weights using partial derivatives
   - Error functions: E1, E2
   - Activation function: σ(x) = 1 / (1 + exp(-x))
   
-  Formulas:
+  **Formulas**:
   - E1 = ½ * (t1 - o1)²
   - E2 = ½ * (t2 - o2)²
   - E_total = E1 + E2
@@ -56,3 +56,8 @@ The step-by-step calculation for adjusting the weights using partial derivatives
   - a_h2 = σ(h2) = 1 / (1 + exp(-h2))
   - o1 = w5a_h1 + w6a_h2
   - o2 = w7a_h1 + w8a_h2
+ 
+ **Calculate the gradients for the output layer weights**:
+ - Partial derivatives with respect to `w5` and `w7
+    - `∂E_total/∂w5 = ∂(E_total)/∂o1 * ∂o1/∂w5 = (t1 - o1) * a_h1`
+    - `∂E_total/∂w7 = ∂(E_total)/∂o2 * ∂o2/∂w7 = (t2 - o2) * a_h1`
