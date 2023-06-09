@@ -21,3 +21,6 @@ The purpose of this repository is to achieve `99.4%` validation accuracy on the 
   - Dropout is used as a regularization technique in neural networks to prevent overfitting.
   - It helps in improving the generalization ability of the model by reducing co-adaptation among neurons.
   - Dropout introduces randomness by randomly dropping out a certain percentage of neurons or connections during training, which makes the network to learn more robust and diverse features.
+- **When to use DropOut?**
+  - Introduce dropout when you observe overfitting
+  - Use dropout with large networks
