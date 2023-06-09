@@ -70,7 +70,12 @@ The step-by-step calculation for adjusting the weights using partial derivatives
     - `∂E_total/∂w1 = ∂(E_total)/∂h1 * ∂h1/∂w1 = [(∂E_total/∂o1 * ∂o1/∂a_h1 * ∂a_h1/∂h1) + (∂E_total/∂o2 * ∂o2/∂a_h1 * ∂a_h1/∂h1)] * i1`
  - Partial derivatives with respect to `w2` and `w4`
     - `∂E_total/∂w2 = ∂(E_total)/∂h1 * ∂h1/∂w2 = [(∂E_total/∂o1 * ∂o1/∂a_h1 * ∂a_h1/∂h1) + (∂E_total/∂o2 * ∂o2/∂a_h1 * ∂a_h1/∂h1)] * i2`
-    
+
+#### Loss function explanation:
+
+ The `loss function` is a measure of how well our neural network is performing in terms of the difference between the predicted output and the expected output.
+ 
+ The goal of backpropagation is to minimize this loss function by adjusting the weights and biases of the neural network. By iteratively updating the weights and biases based on the gradients of the loss function, we aim to find the optimal set of parameters that minimize the prediction error.
     
     
     
