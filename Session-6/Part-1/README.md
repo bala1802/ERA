@@ -17,7 +17,7 @@ The Excel file has `9` sheets in total:
     - `σ` activation function
     - `t` expected target
     - `E` loss function
-- **Calculations**: Backpropagation Calculation is done here. It has the screenshots of the manually calculated partial derivatives. <Under Construction>
+- **Calculations**: Backpropagation Calculation is done here. It has the screenshots of the manually calculated partial derivatives. **<Under Construction>**
 - **LR_0.1**, **LR_0.2**, **LR_0.5**, **LR_0.8**, **LR_1.0**, **LR_2.0**: The performance of the model is calculated for the different Learning Rates. In the upcoming sections, the model's performance is described using visuals.
 
 #### Let's understand what happens during the Forward Propagation
