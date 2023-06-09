@@ -85,11 +85,29 @@ The step-by-step calculation for adjusting the weights using partial derivatives
 - **Minimizing the loss**: The main objective of backpropagation is to minimize the loss function. By calculating the gradients of the loss function with respect to the network's parameters (weights and biases), we can determine the direction in which the parameters need to be adjusted to reduce the prediction error.
 
 - **Gradient descent**: Once the gradients of the loss function are computed, we can use an optimization algorithm such as gradient descent to update the weights and biases in the network. Gradient descent iteratively adjusts the parameters in the direction that minimizes the loss, gradually moving towards the optimal set of parameters that yield better predictions.
+
+#### Learning Rate explanation:
+
+    The learning rate is a hyperparameter that determines the step size at which the weights and biases of a neural network are updated during the optimization process. It plays a crucial role in controlling the speed and stability of the learning process. The learning rate is a scalar value that determines the size of the step taken to update the weights and biases based on the computed gradients. It controls how quickly or slowly the network learns from the data.
     
+#### Example-1: 
+
+`Learning Rate = 0.1`
+ ![LR01](https://github.com/bala1802/ERA/assets/22103095/adf2f514-417f-4881-949c-690c358f2117)
+
+`Learning Rate = 0.2`
+ ![image](https://github.com/bala1802/ERA/assets/22103095/7170b340-6aa4-4265-9db0-d5e9281bcd42)
     
-    
-    
-    
+`Learning Rate = 0.5`
+ ![image](https://github.com/bala1802/ERA/assets/22103095/c88d6bb5-e5b3-4c10-9a0f-cf33290f92e7)
+ 
+`Learning Rate = 0.8`
+ ![image](https://github.com/bala1802/ERA/assets/22103095/c7681d5d-21ed-478f-9fdd-2430becba8dc)
+
+
+
+
+
     
     
     
