@@ -78,7 +78,13 @@ The step-by-step calculation for adjusting the weights using partial derivatives
  The goal of backpropagation is to minimize this loss function by adjusting the weights and biases of the neural network. By iteratively updating the weights and biases based on the gradients of the loss function, we aim to find the optimal set of parameters that minimize the prediction error.
     
 **Loss Function and it's role in Backpropagation**
+- **Loss function**: The loss function quantifies the discrepancy between the predicted output of our neural network and the desired output. It provides a measure of how "wrong" our predictions are.
 
+- **Backpropagation**: Backpropagation is an algorithm used to adjust the weights and biases of a neural network by propagating the prediction error back through the network. The gradients of the loss function with respect to the weights and biases are computed during backpropagation to determine the direction and magnitude of weight updates.
+
+- **Minimizing the loss**: The main objective of backpropagation is to minimize the loss function. By calculating the gradients of the loss function with respect to the network's parameters (weights and biases), we can determine the direction in which the parameters need to be adjusted to reduce the prediction error.
+
+- **Gradient descent**: Once the gradients of the loss function are computed, we can use an optimization algorithm such as gradient descent to update the weights and biases in the network. Gradient descent iteratively adjusts the parameters in the direction that minimizes the loss, gradually moving towards the optimal set of parameters that yield better predictions.
     
     
     
