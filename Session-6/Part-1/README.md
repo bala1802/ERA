@@ -77,7 +77,8 @@ The step-by-step calculation for adjusting the weights using partial derivatives
  
  The goal of backpropagation is to minimize this loss function by adjusting the weights and biases of the neural network. By iteratively updating the weights and biases based on the gradients of the loss function, we aim to find the optimal set of parameters that minimize the prediction error.
     
-    
+**Loss Function and it's role in Backpropagation**
+
     
     
     
