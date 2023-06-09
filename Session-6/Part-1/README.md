@@ -92,16 +92,22 @@ The step-by-step calculation for adjusting the weights using partial derivatives
     
 #### Example-1: 
 
-`Learning Rate = 0.1`
+**`Learning Rate = 0.1`**
+    
  ![LR01](https://github.com/bala1802/ERA/assets/22103095/adf2f514-417f-4881-949c-690c358f2117)
 
-`Learning Rate = 0.2`
+    
+**`Learning Rate = 0.2`**
+    
  ![image](https://github.com/bala1802/ERA/assets/22103095/7170b340-6aa4-4265-9db0-d5e9281bcd42)
     
-`Learning Rate = 0.5`
+    
+**`Learning Rate = 0.5`**
+    
  ![image](https://github.com/bala1802/ERA/assets/22103095/c88d6bb5-e5b3-4c10-9a0f-cf33290f92e7)
+    
  
-`Learning Rate = 0.8`
+**`Learning Rate = 0.8`**
  ![image](https://github.com/bala1802/ERA/assets/22103095/c7681d5d-21ed-478f-9fdd-2430becba8dc)
 
 
