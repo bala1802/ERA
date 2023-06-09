@@ -57,7 +57,28 @@ The step-by-step calculation for adjusting the weights using partial derivatives
   - o1 = w5a_h1 + w6a_h2
   - o2 = w7a_h1 + w8a_h2
  
- **Calculate the gradients for the output layer weights**:
- - Partial derivatives with respect to `w5` and `w7
+ **1. Calculate the gradients for the output layer weights**:
+ - Partial derivatives with respect to `w5` and `w7`
     - `∂E_total/∂w5 = ∂(E_total)/∂o1 * ∂o1/∂w5 = (t1 - o1) * a_h1`
     - `∂E_total/∂w7 = ∂(E_total)/∂o2 * ∂o2/∂w7 = (t2 - o2) * a_h1`
+ - Partial derivatives with respect to w6 and w8:
+    - `∂E_total/∂w6 = ∂(E_total)/∂o1 * ∂o1/∂w6 = (t1 - o1) * a_h2`
+    - `∂E_total/∂w8 = ∂(E_total)/∂o2 * ∂o2/∂w8 = (t2 - o2) * a_h2`
+ **2. Calculate the gradients for the hidden layer weights**:
+ - Partial derivatives with respect to `w1` and `w3`
+    - `∂E_total/∂w1 = ∂(E_total)/∂h1 * ∂h1/∂w1 = [(∂E_total/∂o1 * ∂o1/∂a_h1 * ∂a_h1/∂h1) + (∂E_total/∂o2 * ∂o2/∂a_h1 * ∂a_h1/∂h1)] * i1`
+ - Partial derivatives with respect to `w2` and `w4`
+    - `∂E_total/∂w2 = ∂(E_total)/∂h1 * ∂h1/∂w2 = [(∂E_total/∂o1 * ∂o1/∂a_h1 * ∂a_h1/∂h1) + (∂E_total/∂o2 * ∂o2/∂a_h1 * ∂a_h1/∂h1)] * i2`
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
