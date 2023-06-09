@@ -88,7 +88,7 @@ The step-by-step calculation for adjusting the weights using partial derivatives
 
 #### Learning Rate explanation:
 
-    The learning rate is a hyperparameter that determines the step size at which the weights and biases of a neural network are updated during the optimization process. It plays a crucial role in controlling the speed and stability of the learning process. The learning rate is a scalar value that determines the size of the step taken to update the weights and biases based on the computed gradients. It controls how quickly or slowly the network learns from the data.
+- The learning rate is a hyperparameter that determines the step size at which the weights and biases of a neural network are updated during the optimization process. It plays a crucial role in controlling the speed and stability of the learning process. The learning rate is a scalar value that determines the size of the step taken to update the weights and biases based on the computed gradients. It controls how quickly or slowly the network learns from the data.
     
 #### Example-1: 
 
