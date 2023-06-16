@@ -43,6 +43,21 @@ Let's build a model by reducing the number of channels at the end layers
  - Added Dropouts, regularization technique
  - No change in the number of parameters
  - The best training accuracy is 99.22% and the best test accuracy is 99.15%
+## Model-8
+ - After applying the Global Average Pooling layer, the number of parameters are reduced to 6070 parameters
+ - The best Training accuracy is 98.44% and 97.81%
+## Model-9
+- The best training accuracy is 99.14%
+- The best test accuracy is 99.0%
+## Model-10
+- The model is reduced to ~6.7K Parameters.
+- The Output channel size is restricted to 8,10,12,14 and 16
+- It is evident from the last epoch that the Train and Test accuracy is more or less equal.
+## Model-11
+- Retained the Model-10
+- Applied Image Augmentation and the Learning Rate Scheduler
+- Can't say the Model is overfitting.
+- The best training accuracy is 98.64% and the best test accuracy is 99.19%
 
 
 
