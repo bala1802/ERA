@@ -46,3 +46,4 @@ Group Normalization is a technique that normalizes the inputs of each layer in a
 Layer Normalization is a technique that normalizes the inputs of each neuron within a layer independently. It reduces the internal covariate shift and provides stability during training. By normalizing the inputs based on statistics calculated for each neuron across the batch or sequence, it helps improve the performance and learning efficiency of deep neural networks.
 
 #### Batch Normalization:
+Batch Normalization is a technique that normalizes the inputs of each layer in a neural network based on the statistics computed across the entire batch. By reducing the internal covariate shift, it improves the stability and convergence speed of the network during training. Moreover, Batch Normalization acts as a regularization technique, aiding in better generalization of the network.
