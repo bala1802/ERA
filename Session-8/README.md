@@ -33,4 +33,16 @@ The purpose of creating this repository is to achieve 70% Test accuracy for the 
 ### Training vs Test (Accuracy and Losses)
 ![image](https://github.com/bala1802/ERA/assets/22103095/27ce8403-3886-4933-8157-5b8c39ace93a)
 
+### 10 misclassified images for the Model-3 (Batch Normalization model)
+![image](https://github.com/bala1802/ERA/assets/22103095/126953f8-a174-4b01-b111-857fc5a5e163)
 
+
+# Let's understand Group Normalization, Layer Normalization and Batch Normalization
+
+#### Group Normalization: 
+Group Normalization is a technique that normalizes the inputs of each layer in a group-wise manner, providing improved performance and stability for deep neural networks. By dividing the channels into groups and calculating statistics separately for each group, it reduces the reliance on the batch size during training.
+
+#### Layer Normalization:
+Layer Normalization is a technique that normalizes the inputs of each neuron within a layer independently. It reduces the internal covariate shift and provides stability during training. By normalizing the inputs based on statistics calculated for each neuron across the batch or sequence, it helps improve the performance and learning efficiency of deep neural networks.
+
+#### Batch Normalization:
