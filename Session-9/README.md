@@ -13,6 +13,8 @@ Construct a Neural Network for the CIFAR10 dataset Multiclass classification, ba
   - Horizontal Flip
   - Shift Scale Rotate
   - Cutout
+ - The `total params` used must be lesser than 200K
+ - Accurcy should be `85%` with as many epochs as required
  
 # How to read this repository?
 
