@@ -13,3 +13,19 @@ Construct a Neural Network for the CIFAR10 dataset Multiclass classification, ba
   - Horizontal Flip
   - Shift Scale Rotate
   - Cutout
+ 
+# How to read this repository?
+
+The Session09.ipynb is the main notebook, inside which the `model.py` and `util.py` are used as helper class.
+
+# `model.py`
+
+This script is used to construct the Neural Network with below specifications
+
+Architecture:
+
+    - C1, C2, C3, C4
+    - Each block will have 3 Convolution layers.
+    - First layer will be Depthwise Seperable convolution layer; 
+    - Second Layer will be a 1X1
+    - Third layer will be a convolution layer with dilation as 2
