@@ -29,3 +29,65 @@ Architecture:
     - First layer will be Depthwise Seperable convolution layer; 
     - Second Layer will be a 1X1
     - Third layer will be a convolution layer with dilation as 2
+
+Model Summary:
+
+----------------------------------------------------------------
+
+        Layer (type)               Output Shape         Param #
+        
+----------------------------------------------------------------
+
+            Conv2d-1           [-1, 60, 32, 32]             540
+       BatchNorm2d-2           [-1, 60, 32, 32]             120
+              ReLU-3           [-1, 60, 32, 32]               0
+            Conv2d-4           [-1, 30, 34, 34]           1,800
+       BatchNorm2d-5           [-1, 30, 34, 34]              60
+              ReLU-6           [-1, 30, 34, 34]               0
+            Conv2d-7           [-1, 60, 30, 30]          16,200
+       BatchNorm2d-8           [-1, 60, 30, 30]             120
+              ReLU-9           [-1, 60, 30, 30]               0
+           Conv2d-10          [-1, 120, 30, 30]           1,080
+      BatchNorm2d-11          [-1, 120, 30, 30]             240
+             ReLU-12          [-1, 120, 30, 30]               0
+           Conv2d-13           [-1, 30, 32, 32]           3,600
+      BatchNorm2d-14           [-1, 30, 32, 32]              60
+             ReLU-15           [-1, 30, 32, 32]               0
+           Conv2d-16           [-1, 60, 28, 28]          16,200
+      BatchNorm2d-17           [-1, 60, 28, 28]             120
+             ReLU-18           [-1, 60, 28, 28]               0
+           Conv2d-19          [-1, 120, 28, 28]           1,080
+      BatchNorm2d-20          [-1, 120, 28, 28]             240
+             ReLU-21          [-1, 120, 28, 28]               0
+           Conv2d-22           [-1, 30, 28, 28]           3,600
+      BatchNorm2d-23           [-1, 30, 28, 28]              60
+             ReLU-24           [-1, 30, 28, 28]               0
+           Conv2d-25           [-1, 60, 24, 24]          16,200
+      BatchNorm2d-26           [-1, 60, 24, 24]             120
+             ReLU-27           [-1, 60, 24, 24]               0
+           Conv2d-28          [-1, 120, 22, 22]           1,080
+      BatchNorm2d-29          [-1, 120, 22, 22]             240
+             ReLU-30          [-1, 120, 22, 22]               0
+           Conv2d-31           [-1, 30, 22, 22]           3,600
+      BatchNorm2d-32           [-1, 30, 22, 22]              60
+             ReLU-33           [-1, 30, 22, 22]               0
+           Conv2d-34           [-1, 60, 18, 18]          16,200
+      BatchNorm2d-35           [-1, 60, 18, 18]             120
+             ReLU-36           [-1, 60, 18, 18]               0
+        AvgPool2d-37             [-1, 60, 1, 1]               0
+           Conv2d-38             [-1, 10, 1, 1]             600
+           
+----------------------------------------------------------------
+
+- Total params: 83,340
+- Trainable params: 83,340
+- Non-trainable params: 0
+
+----------------------------------------------------------------
+
+- Input size (MB): 0.01
+- Forward/backward pass size (MB): 13.28
+- Params size (MB): 0.32
+- Estimated Total Size (MB): 13.61
+
+----------------------------------------------------------------
