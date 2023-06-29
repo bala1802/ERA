@@ -8,3 +8,8 @@ Construct a Neural Network for the CIFAR10 dataset Multiclass classification, ba
 - One of the layers must use Dilated Convolution
 - Complusory Global Average Pooling post that Fully Connected Layer should be added
 - The total Receptive fields used must be more than 44
+- The data transformations should be done using `albumentations` library (`pip install albumentations`)
+- Albumentations specifications:
+  - Horizontal Flip
+  - Shift Scale Rotate
+  - Cutout
