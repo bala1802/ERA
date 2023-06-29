@@ -100,7 +100,7 @@ Model Summary:
 - It allows customizable augmentation pipelines and can generate augmented images on the fly during training.
 - It is particularly useful for reducing storage requirements and handling dynamic datasets.
 
-Albumentations techniques applied in this repository:
+## Albumentations techniques applied in this repository:
 
 - `A.HorizontalFlip(p=0.5)`: flips an image horizontally with a 50% probability.
 - `A.ShiftScaleRotate(shift_limit=0.1, scale_limit=0.2, rotate_limit=45, p=0.5)`: applies random shifts, scales, and rotations to an image with specified limits and a 50% probability.
