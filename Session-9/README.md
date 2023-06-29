@@ -91,3 +91,17 @@ Model Summary:
 - Estimated Total Size (MB): 13.61
 
 ----------------------------------------------------------------
+
+# Albumentations
+
+- Albumentations is a popular library for image augmentation in machine learning and computer vision tasks.
+- It offers a wide range of efficient augmentation techniques for tasks like object detection and image classification.
+- Albumentations is fast, memory-efficient, and supports various input image formats.
+- It allows customizable augmentation pipelines and can generate augmented images on the fly during training.
+- It is particularly useful for reducing storage requirements and handling dynamic datasets.
+
+Albumentations techniques applied in this repository:
+
+- `A.HorizontalFlip(p=0.5)`: flips an image horizontally with a 50% probability.
+- `A.ShiftScaleRotate(shift_limit=0.1, scale_limit=0.2, rotate_limit=45, p=0.5)`: applies random shifts, scales, and rotations to an image with specified limits and a 50% probability.
+- `A.CoarseDropout(max_holes=1, max_height=16, max_width=16, min_holes = 1, min_height=16, min_width=16, fill_value=[0.4914, 0.4822, 0.4465], mask_fill_value = None, p=0.5),`: applies coarse dropout by randomly removing square-shaped regions from an image, with specified maximum and minimum hole sizes, fill values, and a 50% probability.
