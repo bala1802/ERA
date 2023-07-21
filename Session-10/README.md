@@ -64,4 +64,8 @@ The purpose of this respository is to create Custom ResNet model for the CIFA10 
 - Estimated Total Size (MB): 31.08
 ----------------------------------------------------------------
 
+# LR Finder
+
+![Alt text](image.png)
+
 
