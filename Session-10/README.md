@@ -23,7 +23,7 @@ The purpose of this respository is to create Custom ResNet model for the CIFA10 
 
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
-================================================================
+----------------------------------------------------------------
             Conv2d-1           [-1, 64, 32, 32]           1,728
        BatchNorm2d-2           [-1, 64, 32, 32]             128
               ReLU-3           [-1, 64, 32, 32]               0
@@ -53,7 +53,7 @@ The purpose of this respository is to create Custom ResNet model for the CIFA10 
              ReLU-27            [-1, 512, 5, 5]               0
 AdaptiveAvgPool2d-28            [-1, 512, 1, 1]               0
            Linear-29                   [-1, 10]           5,130
-================================================================
+----------------------------------------------------------------
 Total params: 5,196,874
 Trainable params: 5,196,874
 Non-trainable params: 0
