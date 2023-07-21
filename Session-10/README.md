@@ -66,6 +66,7 @@ The purpose of this respository is to create Custom ResNet model for the CIFA10 
 
 # LR Finder
 
-![Alt text](image.png)
+![image](https://github.com/bala1802/ERA/assets/22103095/b9de69da-2a43-4bf8-b35a-2327570e6b58)
+
 
 
