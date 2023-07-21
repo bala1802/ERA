@@ -51,6 +51,7 @@ The purpose of this respository is to create Custom ResNet model for the CIFA10 
            Conv2d-25            [-1, 512, 5, 5]       2,359,296
       BatchNorm2d-26            [-1, 512, 5, 5]           1,024
              ReLU-27            [-1, 512, 5, 5]               0
+
 AdaptiveAvgPool2d-28            [-1, 512, 1, 1]               0
            Linear-29                   [-1, 10]           5,130
 ----------------------------------------------------------------
