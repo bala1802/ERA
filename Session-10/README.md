@@ -54,14 +54,14 @@ The purpose of this respository is to create Custom ResNet model for the CIFA10 
 AdaptiveAvgPool2d-28            [-1, 512, 1, 1]               0
            Linear-29                   [-1, 10]           5,130
 ----------------------------------------------------------------
-Total params: 5,196,874
-Trainable params: 5,196,874
-Non-trainable params: 0
+- Total params: 5,196,874
+- Trainable params: 5,196,874
+- Non-trainable params: 0
 ----------------------------------------------------------------
-Input size (MB): 0.01
-Forward/backward pass size (MB): 11.24
-Params size (MB): 19.82
-Estimated Total Size (MB): 31.08
+- Input size (MB): 0.01
+- Forward/backward pass size (MB): 11.24
+- Params size (MB): 19.82
+- Estimated Total Size (MB): 31.08
 ----------------------------------------------------------------
 
 
